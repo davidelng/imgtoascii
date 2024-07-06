@@ -12,7 +12,7 @@ def main():
     parser.add_argument("--color", action="store_true", default=False, help="print colored characters instead of monochrome")
     parser.add_argument("--chars", help="characters to use instead of grayscale")
     parser.add_argument("--output", help="print result in the specified file")
-    parser.add_argument("--png", action="store_true", help="Save ascii art as PNG image")
+    parser.add_argument("--png", action="store_true", help="save ascii art as PNG image")
     args = parser.parse_args()
 
     try:
